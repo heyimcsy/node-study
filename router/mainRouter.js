@@ -3,7 +3,7 @@ const router = express.Router()
 const db = require('../model/db')
 
 router.get('/', function (req, res) {
-  res.render('index', { title: '서윤이가 만든 EJS 메인페이지' })
+  res.render('main', { title: '영화 리뷰 사이트' })
 })
 
 router.get('/about', function (req, res) {
